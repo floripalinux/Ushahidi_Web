@@ -4,7 +4,9 @@
 	RewriteEngine On
 
 	# Installation directory
-	RewriteBase /
+	RewriteBase /VPS1/cibersale.com.ar/public_html/mapasdefloripa
+
+
 
 	# Protect application and system files from being viewed
 	RewriteRule ^(application|modules|system|tests|sql) - [F,L]
